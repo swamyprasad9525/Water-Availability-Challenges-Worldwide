@@ -20,12 +20,35 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.home-btn {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #ff5733, #ffbd69);
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.home-btn:hover {
+    background: linear-gradient(90deg, #ff6a00, #ff5733);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.home-btn:active {
+    transform: translateY(2px);
+}
+
 footer {
     background-color: #8FED92; /* Footer background color */
     color: #333; /* Footer text color */
     text-align: center;
     padding: 1em;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }

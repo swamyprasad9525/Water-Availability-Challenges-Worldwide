@@ -67,13 +67,25 @@ nav a:hover {
 .main-content h3 {
     text-align: center;
 }
+.created-by {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #ff5733, #ffbd69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 1.5s infinite alternate;
+}
 
 footer {
     background-color: #8FED92; /* Light green color */
     color: #333; /* Darker text color */
     text-align: center;
     padding: 1em;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
